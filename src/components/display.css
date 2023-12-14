@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    background-image: url('../images/titanic.jpeg');
+    background-size: cover;
+    background-repeat: repeat-y;
+    font-size: 25px;
+    font-weight: normal;
+    font-family: 'Helvetica', sans-serif;
+  }
+  
+  .title {
+    background-color: white;
+  }
+  
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .rounded-image {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  

@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+
+
+    background-image: url('titanic.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    font-size: 25px;
+    font-weight: normal;
+    font-family: 'Helvetica', sans-serif;
+    margin-top: 10px;
+
+
+
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(241, 237, 237, 0.788);
+    /* Adjust the alpha (fourth) channel to control transparency */
+    border: 2px solid #000000;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    padding: 50px;
+    text-align: center;
+}
+
+.label {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.input-field {
+    padding: 10px;
+    margin: 0;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: rgb(225, 229, 234);
+    box-shadow: 0 0 4px rgba(222, 222, 223, 0.5);
+}
+
+p {
+    font-size: 25px;
+    font-weight: normal;
+    font-family: 'Helvetica', sans-serif;
+    margin-top: 10px;
+}
+
+
+
+.submit-button {
+    background-color: #414446d1;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.submit-button:hover {
+    background-color: #b2b2b2;
+}
+
+.submit-button:focus {
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
